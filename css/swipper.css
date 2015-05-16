@@ -1,0 +1,48 @@
+.mineSwipper {
+	text-align: center;
+}
+
+
+.tile {
+  background-color: #CCC;
+  height: 25px;
+  /* float: left; */
+  width: 33px;
+  border: 1px solid #B1A9A9;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+}
+
+.box {
+
+}
+
+.box.tile:hover {
+	background-color: rgb(165, 146, 146);
+}
+
+.row {
+
+}
+
+.col {
+
+}
+
+.mineCount {
+	position: absolute;
+	top: 4px;
+	left: 11px;
+}
+
+.mineTile {
+	display: block;
+	height: 17px;
+	width: 16px;
+	background-color: red;
+	top: 4px;
+	position: absolute;
+	border-radius: 50%;
+	left: 9px;
+}
